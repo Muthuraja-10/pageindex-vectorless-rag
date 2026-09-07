@@ -11,7 +11,7 @@ class GroqService:
             api_key=settings.GROQ_API_KEY
         )
 
-        self.model = "meta-llama/llama-4-scout-17b-16e-instruct"
+        self.model = "openai/gpt-oss-120b"
 
     def generate_response(self, prompt: str):
 
